@@ -1,0 +1,192 @@
+[
+  {
+    "_id": "new1",
+    "observedDate": "Fri Feb 18 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "dueDate": "Mon Feb 21 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "building": {
+      "_id": "building1",
+      "name": "Khach san Hoang Anh Gia Lai",
+      "address": {
+        "street": "TD 236, TBD 16B duong Tran Nhan Tong",
+        "ward": "phuong An Hai Bac",
+        "district": "quan Son Tra"
+      },
+      "investor": {
+        "_id": "investor1",
+        "name": "Cong ty TNHH MTV Hoang Gia Phat"
+      },
+      "group": "A",
+      "type": {
+        "_id": "type1",
+        "name": "Khach san, nha nghi, nha biet thu"
+      }
+    },
+    "designCompany": {
+      "_id": "dgcompany1",
+      "shortName": "ATAT"
+    },
+    "desc": "Tham duyet moi",
+    "typeProject": "tkkt",
+    "scale": "",
+    "status": "dangxuly",
+    "user": {
+      "_id": "user_1",
+      "shortName": "Minh Duc",
+      "avatar": "./assets/img/avt_1.jpg"
+    },
+    "resultDesign": null,
+    "feeDesign": null
+  },
+  {
+    "_id": "new2",
+    "observedDate": "Thu Feb 10 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "dueDate": "Fri Feb 18 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "building": {
+      "_id": "building2",
+      "name": "Nha o ket hop dich vu luu tru",
+      "address": {
+        "street": "TD 13, TBD 134, khu tai dinh cu phia bac Xuong 38 va 387",
+        "ward": "phuong An Hai Bac",
+        "district": "quan Son Tra"
+      },
+      "investor": {
+        "_id": "investor2",
+        "name": "Cong ty TNHH MTV Anh Bao Phat"
+      },
+      "group": "A",
+      "type": {
+        "_id": "type2",
+        "name": "Nha o ket hop dich vu"
+      }
+    },
+    "designCompany": {
+      "_id": "dgcompany2",
+      "shortName": "ATAT"
+    },
+    "desc": "Tham duyet thiet ke co so",
+    "typeProject": "tkcs",
+    "scale": "",
+    "status": "dangxuly",
+    "user": {
+      "_id": "user_1",
+      "shortName": "Minh Duc",
+      "avatar": "./assets/img/avt_1.jpg"
+    },
+    "resultDesign": null,
+    "feeDesign": null
+  },
+  {
+    "_id": "new3",
+    "observedDate": "Mon Feb 21 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "dueDate": "Mon Feb 28 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "building": {
+      "_id": "building3",
+      "name": "Cua hang kinh doanh LPG Hoang Gia",
+      "address": {
+        "street": "TD 13, TBD 134, khu tai dinh cu phia bac Xuong 38 va 387",
+        "ward": "phuong An Hai Bac",
+        "district": "quan Son Tra"
+      },
+      "investor": {
+        "_id": "investor3",
+        "name": "Cong ty TNHH MTV Anh Bao Phat"
+      },
+      "group": "A",
+      "type": {
+        "_id": "type3",
+        "name": "Cua hang kinh doanh khi dot hoa long"
+      }
+    },
+    "designCompany": {
+      "_id": "dgcompany3",
+      "shortName": "ATAT"
+    },
+    "desc": "Chap thuan dia diem cong trinh",
+    "typeProject": "ctdd",
+    "scale": "",
+    "status": "dangxuly",
+    "user": {
+      "_id": "user_2",
+      "shortName": "Ai Luyen",
+      "avatar": "./assets/img/avt_2.jpg"
+    },
+    "resultDesign": null,
+    "feeDesign": null
+  },
+  {
+    "_id": "new4",
+    "observedDate": "Mon Feb 21 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "dueDate": "Mon Feb 28 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "building": {
+      "_id": "building4",
+      "name": "Cua hang kinh doanh LPG Hoang Gia",
+      "address": {
+        "street": "TD 13, TBD 134, khu tai dinh cu phia bac Xuong 38 va 387",
+        "ward": "phuong An Hai Bac",
+        "district": "quan Son Tra"
+      },
+      "investor": {
+        "_id": "investor4",
+        "name": "Cong ty TNHH MTV Anh Bao Phat"
+      },
+      "group": "A",
+      "type": {
+        "_id": "type4",
+        "name": "Cua hang kinh doanh khi dot hoa long"
+      }
+    },
+    "designCompany": {
+      "_id": "dgcompany4",
+      "shortName": "ATAT"
+    },
+    "desc": "Tham duyet dieu chinh cong trinh",
+    "typeProject": "tddc",
+    "scale": "",
+    "status": "dangxuly",
+    "user": {
+      "_id": "user_2",
+      "shortName": "Ai Luyen",
+      "avatar": "./assets/img/avt_2.jpg"
+    },
+    "resultDesign": null,
+    "feeDesign": null
+  },
+  {
+    "_id": "new5",
+    "observedDate": "Mon Feb 21 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "dueDate": "Mon Feb 28 2022 00:00:00 GMT+0700 (Giờ Đông Dương)",
+    "building": {
+      "_id": "building5",
+      "name": "Cua hang kinh doanh LPG Hoang Gia",
+      "address": {
+        "street": "TD 13, TBD 134, khu tai dinh cu phia bac Xuong 38 va 387",
+        "ward": "phuong An Hai Bac",
+        "district": "quan Son Tra"
+      },
+      "investor": {
+        "_id": "investor5",
+        "name": "Cong ty TNHH MTV Anh Bao Phat"
+      },
+      "group": "A",
+      "type": {
+        "_id": "type5",
+        "name": "Cua hang kinh doanh khi dot hoa long"
+      }
+    },
+    "designCompany": {
+      "_id": "dgcompany5",
+      "shortName": "ATAT"
+    },
+    "desc": "Tham duyet dieu chinh cong trinh",
+    "typeProject": "tddc",
+    "scale": "",
+    "status": "dangxuly",
+    "user": {
+      "_id": "user_2",
+      "shortName": "Ai Luyen",
+      "avatar": "./assets/img/avt_2.jpg"
+    },
+    "resultDesign": null,
+    "feeDesign": null
+  }
+]

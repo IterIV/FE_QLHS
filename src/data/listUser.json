@@ -1,0 +1,12 @@
+[
+  {
+    "_id": "user_1",
+    "shortName": "Minh Duc",
+    "avatar": "./assets/img/avt_1.jpg"
+  },
+  {
+    "_id": "user_2",
+    "shortName": "Ai Luyen",
+    "avatar": "./assets/img/avt_2.jpg"
+  }
+]
