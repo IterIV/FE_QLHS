@@ -89,6 +89,7 @@ const CardNewProject = ({ project, onChangeUser }) => {
 
   const showPopconfirm = () => {
     setVisible(true);
+    console.log(userChange);
   };
   const handleOk = () => {
     setConfirmLoading(true);
@@ -167,7 +168,24 @@ const CardNewProject = ({ project, onChangeUser }) => {
             <Col span={12}>{renderTypeProject(project.typeProject)}</Col>
             <Col span={12}>
               <Popconfirm
-                title="Đồng ý chuyển hồ sơ?"
+                title={
+                  <div style={{ marginBottom: "10px", textAlign: "center" }}>
+                    <p style={{ marginBottom: "10px" }}>Chuyển hồ sơ cho:</p>
+                    <ImageButton
+                      type="text"
+                      shape="round"
+                      icon={
+                        <img
+                          src={userChange.avatar}
+                          alt={userChange.shortName}
+                          className="btn__logo__img"
+                        />
+                      }
+                    >
+                      {userChange.shortName}
+                    </ImageButton>
+                  </div>
+                }
                 visible={visible}
                 onConfirm={handleOk}
                 okButtonProps={{ loading: confirmLoading }}
