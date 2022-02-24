@@ -50,7 +50,6 @@ const NewTDProject = () => {
       );
     });
   };
-  console.log(lstNewProject);
 
   return (
     <div>

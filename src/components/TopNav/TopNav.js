@@ -1,10 +1,13 @@
 import React from "react";
+import { useDispatch } from "react-redux";
+import { logoutAction } from "../../redux/actions/UserAction";
 import CustomButton from "../CustomComponent/Buttons/CustomButton";
 import ImageButton from "../CustomComponent/Buttons/ImageButton";
 import Dropdown from "../Dropdown/Dropdown";
 import { TopNavContainer } from "./TopNavStyled";
 
-const TopNav = ({ changeShow }) => {
+const TopNav = ({ changeShow, user }) => {
+  const dispatch = useDispatch();
   // TODO handle Event
 
   // TODO render
@@ -12,7 +15,9 @@ const TopNav = ({ changeShow }) => {
     <ul className="dropdown__menu" onClick={onClick}>
       <li
         className="dropdown__menu__item"
-        onClick={() => console.log("Log out")}
+        onClick={() => {
+          dispatch(logoutAction());
+        }}
       >
         <i className="fa-solid fa-arrow-right-from-bracket"></i>
         <p>Đăng xuất</p>
@@ -38,13 +43,13 @@ const TopNav = ({ changeShow }) => {
             shape="round"
             icon={
               <img
-                src="/assets/img/avt_1.jpg"
-                alt="Minh duc"
+                src={user ? user.avatar : "/assets/img/avt_1.jpg"}
+                alt={user?.shortName}
                 className="btn__logo__img"
               />
             }
           >
-            Minh Duc
+            {user?.shortName}
           </ImageButton>
         </Dropdown>
       </div>

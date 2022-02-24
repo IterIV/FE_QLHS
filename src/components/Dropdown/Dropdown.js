@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from "react";
 import { DropdownStyled } from "./DropdownStyled";
 
-const Dropdown = ({ minWidth, MenuDropComponent, children }) => {
+const Dropdown = ({ minWidth, MenuDropComponent, children, ...props }) => {
   const [show, setShow] = useState(false);
   const refPanel = useRef(null);
   useEffect(() => {
@@ -21,7 +21,7 @@ const Dropdown = ({ minWidth, MenuDropComponent, children }) => {
     <DropdownStyled ref={refPanel} minWidth={minWidth}>
       <div onClick={() => setShow(!show)}>{children}</div>
       <div className={`dropdown__panel ${show ? "show" : ""}`}>
-        <MenuDropComponent onClick={() => setShow(false)} />
+        <MenuDropComponent onClick={() => setShow(false)} {...props} />
       </div>
     </DropdownStyled>
   );

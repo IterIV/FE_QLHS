@@ -36,8 +36,7 @@ export const DropdownStyled = styled.div`
         align-items: center;
         padding: 10px 15px;
         &:hover {
-          background-color: ${styledConfig.background.primary};
-          color: ${styledConfig.color.primary};
+          background-color: rgba(145, 158, 171, 0.08);
         }
         cursor: pointer;
         p {

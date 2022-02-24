@@ -4,7 +4,7 @@ import SideBar from "../../components/SideBar/SideBar";
 import TopNav from "../../components/TopNav/TopNav";
 import { MainContainer } from "./MainLayoutStyled";
 
-const MainLayout = () => {
+const MainLayout = ({ user }) => {
   // TODO State
   const [show, setShow] = useState(false);
 
@@ -15,6 +15,7 @@ const MainLayout = () => {
 
   // TODO UseEffect
   useLayoutEffect(() => {
+    document.title = "Quản lý hồ sơ";
     const resizeWidthWindow = () => {
       if (window.innerWidth >= 768) {
         setShow(false);
@@ -25,14 +26,14 @@ const MainLayout = () => {
       window.removeEventListener("resize", resizeWidthWindow);
     };
   }, []);
-
   // TODO render
+
   return (
     <>
       <SideBar show={show} changeShow={changeShow} />
       <MainContainer className={`${show ? "show" : ""}`}>
         <div className="main__bgoverlay" onClick={() => changeShow()} />
-        <TopNav changeShow={changeShow} />
+        <TopNav changeShow={changeShow} user={user} />
         <div className="main__content">
           <Outlet />
         </div>

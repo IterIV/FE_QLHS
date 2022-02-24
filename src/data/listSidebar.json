@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Tổng quan",
+    "submenu": [
+      {
+        "id": "dashboard",
+        "title": "Tổng quan",
+        "icon": "fa-solid fa-gauge",
+        "src": "/"
+      }
+    ]
+  },
+  {
+    "title": "Hồ sơ thẩm duyệt",
+    "submenu": [
+      {
+        "id": "tdAddNew",
+        "title": "Thêm hồ sơ",
+        "icon": "fa-solid fa-file-medical",
+        "src": "/add-td"
+      },
+      {
+        "id": "tdNew",
+        "title": "Chuyển hồ sơ mới",
+        "icon": "fa-solid fa-file-export",
+        "src": "/td-new"
+      },
+      {
+        "id": "tdInprocess",
+        "title": "Đang xử lý",
+        "icon": "fa-solid fa-file-contract",
+        "src": "/td-inprocess"
+      },
+      {
+        "id": "tdFinish",
+        "title": "Hoàn thành",
+        "icon": "fa-solid fa-file-code",
+        "src": "/td-finish"
+      }
+    ]
+  },
+  {
+    "title": "Hồ sơ nghiệm thu",
+    "submenu": [
+      {
+        "id": "ntNew",
+        "title": "Hồ sơ mới",
+        "icon": "fa-solid fa-file-medical",
+        "src": "/nt-new"
+      },
+      {
+        "id": "ntInprocess",
+        "title": "Đang xử lý",
+        "icon": "fa-solid fa-file-contract",
+        "src": "/nt-inprocess"
+      },
+      {
+        "id": "ntFinish",
+        "title": "Hoàn thành",
+        "icon": "fa-solid fa-file-code",
+        "src": "/nt-finish"
+      }
+    ]
+  },
+  {
+    "title": "Quản lý admin",
+    "submenu": [
+      {
+        "id": "adminUser",
+        "title": "Quản lý người dùng",
+        "icon": "fa-solid fa-users-gear",
+        "src": "/admin-user"
+      },
+      {
+        "id": "adminTypeBuilding",
+        "title": "Quản lý loại công trình",
+        "icon": "fa-solid fa-users-gear",
+        "src": "/admin-typebuilding"
+      }
+    ]
+  }
+]

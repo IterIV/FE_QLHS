@@ -71,8 +71,8 @@ export const SideBarContainer = styled.div`
         transition: 0.3s ease-in-out;
         border-radius: 5px;
         color: inherit;
-        &__txt {
-          margin-left: 10px;
+        &__icon {
+          width: 35px;
         }
         &:hover,
         &.active {

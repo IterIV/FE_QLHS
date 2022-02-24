@@ -20,7 +20,7 @@ export const styledConfig = {
     blue: "#DAE3F3",
   },
   sideBar: {
-    width: "260px",
+    width: "280px",
     logo: {
       height: "40px",
       width: "40px",
@@ -37,6 +37,7 @@ export const styledConfig = {
     topNav: "15px",
     mobile: "10px",
   },
+
   boxShadow:
     "rgb(145 158 171 / 20%) 0px 0px 2px 0px, rgb(145 158 171 / 12%) 0px 12px 24px -4px",
 };
